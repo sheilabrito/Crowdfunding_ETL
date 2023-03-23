@@ -8,4 +8,4 @@ We exported the 4 Dataframes to the following 4 CSV Files: category.csv, subcate
 
 In order to import our CSV files to the Postgres database we created the following ERD in order to stablish the relationship between our tables and keys:
 
-<img width="703" alt="ERD" src="https://user-images.githubusercontent.com/120340433/227254769-c115b11d-9b67-4548-81ce-1a6e977feab3.png">
+<img width="400" alt="ERD" src="https://user-images.githubusercontent.com/120340433/227254769-c115b11d-9b67-4548-81ce-1a6e977feab3.png">
