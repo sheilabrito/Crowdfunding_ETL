@@ -13,18 +13,14 @@ CREATE TABLE "campaign" (
     "end_date" date   NOT NULL,
     "category_id" varchar(10)   NOT NULL,
     "subcategory_id" varchar(10)   NOT NULL,
-    CONSTRAINT "pk_campaign" PRIMARY KEY (
-        "cf_id"
-     )
+    CONSTRAINT "pk_campaign" PRIMARY KEY ("cf_id")
 );
 -- import data
 
 CREATE TABLE "category" (
     "category_id" varchar(10)   NOT NULL,
     "category_name" varchar(50)   NOT NULL,
-    CONSTRAINT "pk_category" PRIMARY KEY (
-        "category_id"
-     )
+    CONSTRAINT "pk_category" PRIMARY KEY ("category_id")
 );
 
 -- import data
@@ -32,9 +28,7 @@ CREATE TABLE "category" (
 CREATE TABLE "subcategory" (
     "subcategory_id" varchar(10)   NOT NULL,
     "subcategory_name" varchar(50)   NOT NULL,
-    CONSTRAINT "pk_subcategory" PRIMARY KEY (
-        "subcategory_id"
-     )
+    CONSTRAINT "pk_subcategory" PRIMARY KEY ("subcategory_id")
 );
 
 -- import data
@@ -44,9 +38,7 @@ CREATE TABLE "contacts" (
     "first_name" varchar(50)   NOT NULL,
     "last_name" varchar(50)   NOT NULL,
     "email" varchar(100)   NOT NULL,
-    CONSTRAINT "pk_contacts" PRIMARY KEY (
-        "contact_id"
-     )
+    CONSTRAINT "pk_contacts" PRIMARY KEY ("contact_id")
 );
 
 -- import data
